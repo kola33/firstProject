@@ -23,7 +23,7 @@ const Singup=()=>{
                         </div>
                         <div className="buttons">
                         <button className="sai rounded-pill"><img src="google.png"/>Continue with Google</button>
-                        <button className="kiran rounded-pill"><img src="apple.png"/>Continue with Apple</button>
+                        <button className="kiran rounded-pill"><img src="apple.png"/>Continue with Apple</button>123
                     </div>
 
                     <h4><center>Or</center></h4>
@@ -35,7 +35,7 @@ const Singup=()=>{
                     <div className="hello d-flex pt-4">
                         <div className="phto2 ms-auto">
                             <Link to="/"><button  className="button btn btn">Signup</button></Link>
-                            <button type="submit" className="btn btn-primary">continue</button>
+                            <button type="submit" className="btn btn-primary">continue</button>123
                         </div><br/><br/>
                     </div>
                  </div>
