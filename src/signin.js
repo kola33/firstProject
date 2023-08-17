@@ -23,7 +23,7 @@ const Singup=()=>{
                         </div>
                         <div className="buttons">
                         <button className="sai rounded-pill"><img src="google.png"/>Continue with Google</button>
-                        <button className="kiran rounded-pill"><img src="apple.png"/>Continue with Apple</button>123
+                        <button className="kiran rounded-pill"><img src="apple.png"/>Continue with Apple</button>
                     </div>
 
                     <h4><center>Or</center></h4>
