@@ -5,6 +5,9 @@ import {Link} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
 const Singup=()=>{
+    const submitData =()=>{
+        navigate('/signin')
+    }
     const navigate = useNavigate();
     return(
         <div className="container-fluid">
@@ -17,7 +20,7 @@ const Singup=()=>{
                     <div className="house d-flex">
                     <img className="pho ms-auto m-4" src="home-button.png"/>
                     </div>
-                    <form>
+                    <form onSubmit={submitData}>
                     <div className="row m-5">
                     <div className="first">
                    <h2>Signup</h2>

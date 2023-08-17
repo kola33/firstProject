@@ -1,9 +1,13 @@
 import React from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 const Singup=()=>{
+    const data =()=>{
+        navigate('/Welcome')
+    }
+    const navigate=useNavigate();
     return(
         <div className="container-fluid">
             <div className="row">
@@ -15,7 +19,7 @@ const Singup=()=>{
                     <div className="house d-flex">
                     <img className="pho ms-auto m-4" src="home-button.png"/>
                     </div>
-                    <form>
+                    <form onSubmit={data}>
                     <div className="row m-5">
                     <div className="first">
                    <h2>Signup</h2>
@@ -35,7 +39,7 @@ const Singup=()=>{
                     <div className="hello d-flex pt-4">
                         <div className="phto2 ms-auto">
                             <Link to="/"><button  className="button btn btn">Signup</button></Link>
-                            <button type="submit" className="btn btn-primary">continue with google </button>
+                            <button type="submit" className="btn btn-primary">continue with google</button>
                         </div><br/><br/>
                     </div>
                  </div>
