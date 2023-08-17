@@ -35,7 +35,7 @@ const Singup=()=>{
                     <div className="hello d-flex pt-4">
                         <div className="phto2 ms-auto">
                             <Link to="/"><button  className="button btn btn">Signup</button></Link>
-                            <button type="submit" className="btn btn-primary">continue</button>123
+                            <button type="submit" className="btn btn-primary">continue with google </button>
                         </div><br/><br/>
                     </div>
                  </div>
