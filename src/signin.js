@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import {Link, useNavigate} from 'react-router-dom';
 
-const Singup=()=>{
+const Singin=()=>{
     const data =()=>{
         navigate('/Welcome')
     }
@@ -22,7 +22,7 @@ const Singup=()=>{
                     <form onSubmit={data}>
                     <div className="row m-5">
                     <div className="first">
-                   <h2>Signup</h2>
+                   <h2>Signin</h2>
                         <p>Completely Employee-owned, we're driven with a passion</p>
                         </div>
                         <div className="buttons">
@@ -32,15 +32,15 @@ const Singup=()=>{
 
                     <h4><center>Or</center></h4>
       
-      <TextField id="standard-basic" label="Enter Your Username or Email" type="email" variant="standard" required/><br/><br/><br/>
-      <TextField id="standard-basic" label="Enter Your Password" type="password" variant="standard" required /><br/><br/><br/>
+      <TextField id="standard-basic" label="Enter Your Username or Email" type="email" variant="standard" required/><br/><br/><br/><br/>
+      <TextField id="standard-basic" label="Enter Your Password" type="password" variant="standard" required /><br/><br/><br/><br/>
                     
                     <p className="for">Forgotten Password</p><br/><br/>
                     <div className="hello d-flex pt-4">
                         <div className="phto2 ms-auto">
                             <Link to="/"><button  className="button btn btn">Signup</button></Link>
                             <button type="submit" className="btn btn-primary">continue with google</button>
-                        </div><br/><br/>
+                        </div><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </div>
                  </div>
                  </form>
@@ -48,8 +48,6 @@ const Singup=()=>{
 
             </div>
         </div>
-    );
-}
 
-
-export default Singup;
+    )};
+    export default Singin;

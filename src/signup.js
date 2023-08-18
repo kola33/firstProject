@@ -43,7 +43,7 @@ const Singup=()=>{
                         <div className="phto2 ms-auto">
                             <Link to="/signin"><button  className="button btn btn">Sign in</button></Link>
                             <button  type="submit" className="btn btn-primary">continue</button>
-                        </div><br/><br/>
+                        </div><br/><br/><br/><br/>
                     </div>
                  </div>
                  </form>
